@@ -1,11 +1,17 @@
-
-
 *, *::before, *::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;}
 
 body{
-    background-color: #0D0D0F;
+    /* background-color: #0D0D0F; */
+    background-image: url(../images/Capture.PNG);
+    
+  width:  100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
 }
 .textColor{
     color: #fff !important;
@@ -96,11 +102,26 @@ input:focus{
     border: 0px none transparent !important ;
 }
 
-img{
+.imgSlider{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 46rem;
     width: 100%;
     position: relative;
-    z-index: 0;}
+    z-index: -1111;
+}
+    .imgOutStory{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 35rem;
+        position: relative;
+        z-index: -1111;
+    }
+    .bgDark{
+        background-color: #000000b1 !important;
+    }
+    .translate-middle2 {
+        transform: translate(-20%,-50%)!important;
+    }
